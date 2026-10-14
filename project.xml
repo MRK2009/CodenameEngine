@@ -242,7 +242,7 @@
 	<haxedef name="HXCPP_M32" if="32bit"/>
 	<haxedef name="HXCPP_DEBUG_LINK" if="debug"/>
 	<!--C++20 seems doesn't seem to do anything but causes compile warnings-->
-	<!--<haxedef name="HXCPP_CPP20"/>-->
+      <haxedef name="HXCPP_CPP20"/>
 	<!--<haxedef name="HXCPP_CLANG"/>-->
 	<!--<haxedef name="HXCPP_MSVC"/>-->
 	<!-- This doesn't seem very useful, and it also increases GC cleanup time -->
