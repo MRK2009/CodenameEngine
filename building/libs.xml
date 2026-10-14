@@ -4,7 +4,7 @@
 		<print pretty="true">Preparing installation...</print>
 
 		<!-- Hxcpp & OpenFL & Lime (Required for Flixel) -->
-		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp"/>
+		<git name="hxcpp" url="https://github.com/MRK-Stuff/cne-hxcpp"/>
 		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" ref="cne" skipDeps="true"/>
 		<git name="lime" url="https://github.com/CodenameCrew/cne-lime" ref="cne" skipDeps="true"/>
 
