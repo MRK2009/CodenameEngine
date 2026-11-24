@@ -40,7 +40,7 @@ jobs:
           haxelib run lime rebuild hxcpp
           haxelib run lime rebuild tools
           arch -x86_64 haxelib run lime rebuild mac -nocolor -release
-          arch -x86_64 haxelib run lime build mac -DCOMPILE_EXPERIMENTAL
+          arch -x86_64 haxelib run lime build mac -DCOMPILE_EXPERIMENTAL -DHXCPP_LTO_THIN
       - name: Tar files
         run: tar -zcvf CodenameEngine.tar.gz -C export/release/macos/bin .
       - name: Uploading artifact (entire build)
